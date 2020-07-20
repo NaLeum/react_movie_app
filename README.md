@@ -1,3 +1,3 @@
 #React Movie App
 
-Use React JS
+Use React JS Movie App
