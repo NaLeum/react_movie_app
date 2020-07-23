@@ -36,18 +36,19 @@
 }
 
 .detail__data .detail__genres {
-    height: 100%;
+    height: 200%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin-top: -20px;
+
 }
 
 .detail__data li {
     list-style: none;
     margin-right: 10px;
-    margin-top: -20px;
     opacity: .7;
 }
 
@@ -59,4 +60,15 @@
     width: 80%;
     font-size: 20px;
     line-height: 1.5;
+}
+
+@media (max-width:450px) {
+    .detail__data .detail__genres {
+        flex-direction: column;
+        margin-top: -20px;
+    }
+
+    .detail__data li {
+        margin-top: 0;
+    }
 }
